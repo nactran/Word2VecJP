@@ -6,3 +6,4 @@ word = input("Enter a word you want to analyze：")
 simwords = model.most_similar(positive=[word])
 n = [w[0] for w in simwords]
 print(word, "=", ",".join(n))
+
