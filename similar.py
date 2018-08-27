@@ -1,6 +1,6 @@
 # 類似する語句を表示 - 2
 from gensim.models import word2vec
-model = word2vec.Word2Vec.load("/Users/kohira/documents/output/wiki03.model")
+model = word2vec.Word2Vec.load("model/wiki00.model")
 word =""
 while(word != "*q"):
     word = input("Enter a word you want to analyze：")

@@ -3,7 +3,7 @@ import sys
 from janome import tokenizer
 import re
 
-CorpusDir = "/Users/kohira/Documents/Corpus/wiki_03.txt"
+CorpusDir = "/Users/kohira/Documents/Corpus/wiki_00.txt"
 #CorpusDir = "/Users/kohira/Documents/Corpus/nucc/data102.txt"
 results = []
 
@@ -44,7 +44,7 @@ for line in lines:
     rl = (" ".join(r)).strip()
     results.append(rl)
 
-text_file = "/Users/kohira/Documents/Corpus/std_wiki_03.txt"
+text_file = "/Users/kohira/Documents/Corpus/std_wiki_00.txt"
 #text_file = "/Users/kohira/Documents/Corpus/test.txt"
 with open(text_file, "w") as fp:
     fp.write("\n".join(results))
