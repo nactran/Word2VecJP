@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cd22bfb-2f24-4ac4-bc5b-baffc37d5556" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compare.py" beforeDir="false" afterPath="$PROJECT_DIR$/compare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/see_vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/see_vector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/similar.py" beforeDir="false" afterPath="$PROJECT_DIR$/similar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/cut.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp/cut.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/cut2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/nucc_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp/nucc_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/readme.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,22 +29,25 @@
           <entry key="key123" value="1" />
           <entry key="md" value="3" />
           <entry key="py" value="46" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="Python" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="1453" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="19" />
           <entry key="Python" value="1452" />
           <entry key="RegExp" value="1" />
         </counts>
@@ -73,12 +69,12 @@
         <entry file="file://$PROJECT_DIR$/compare.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/temp/cut.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="516">
@@ -86,6 +82,15 @@
               <folding>
                 <element signature="e#18#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -149,6 +154,7 @@
         <option value="$PROJECT_DIR$/compare.py" />
         <option value="$PROJECT_DIR$/similar.py" />
         <option value="$PROJECT_DIR$/see_vector.py" />
+        <option value="$PROJECT_DIR$/model/readme.txt" />
       </list>
     </option>
   </component>
@@ -330,6 +336,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="24" width="1377" height="825" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22787611" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -466,7 +473,7 @@
     <entry file="file://$PROJECT_DIR$/compare.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -487,6 +494,13 @@
           <folding>
             <element signature="e#18#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
