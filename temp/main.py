@@ -5,8 +5,8 @@ import re
 from gensim.models import word2vec
 import numpy as np
 
-ModelDir = "nucc.model"
-InputDir = "data/conversation.txt"
+ModelDir = "Jawiki.model"
+InputDir = "/Users/kohira/documents//conversation.txt"#Use Ja_Wiki (part, size: 1G)
 OutputDir = "data/conversation_segment.txt"
 def word_segment():
     results = []
@@ -14,7 +14,7 @@ def word_segment():
     text_file1 = open(InputDir)
     outputFile_Segment = open(OutputDir,'w', encoding='utf-8')
 
-    # 读取语料文本中的每一行文字
+    # 读取语料文本中的每一行文
     bindata = text_file1.read()
     text = bindata
     t = tokenizer.Tokenizer()
