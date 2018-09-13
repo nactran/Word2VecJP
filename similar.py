@@ -3,9 +3,13 @@ from gensim.models import word2vec
 model = word2vec.Word2Vec.load("model/wiki00.model")
 word =""
 while(word != "*q"):
-    word = input("Enter a word you want to analyze：")
-    simwords = model.most_similar(positive=[word])
-    n = [w[0] for w in simwords]
-    print(word, "=", ",".join(n))
+    word = input("Enter a word you want to analyze, enter *q to quit：")
+    word.strip()
+    try:
+        simwords = model.most_similar(positive=[word])
+        n = [w[0] for w in simwords]
+        print(word, "=", ",".join(n))
+    except:
+        print("The word is not in dictionary!")
 
 
