@@ -1,4 +1,4 @@
-# Using Word2Vec to analyze Japanese word vector 
+# Using Word2Vec to analyze Japanese word vector （Developing）
 モデルについてはウィキペディアのコーパスを利用してモデルを作成しました。  
 ウイキペディアのコーパスについてはhttps://dumps.wikimedia.org/jawiki/latest/ にご参考ください  
 モデルは下記のリンクからダウロードしてmodelというフォルダにおいてください
